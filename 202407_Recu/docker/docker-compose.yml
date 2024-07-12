@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: nginx:latest
+    image: alejandrovoutsina/web2-voutsina:v1
     ports:
       - "8081:80"
     volumes:
