@@ -1,0 +1,21 @@
+2024-07-12 15:45:12,448 p=7112 u=alev n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-12 15:45:12,640 p=7112 u=alev n=ansible | PLAY [testing] **********************************************************************************************************
+2024-07-12 15:45:12,651 p=7112 u=alev n=ansible | TASK [Gathering Facts] **************************************************************************************************
+2024-07-12 15:45:14,552 p=7112 u=alev n=ansible | ok: [127.0.0.1]
+2024-07-12 15:45:14,577 p=7112 u=alev n=ansible | TASK [2PRecuperatorio : Crear el directorio /tmp/alumno] ****************************************************************
+2024-07-12 15:45:14,933 p=7112 u=alev n=ansible | changed: [127.0.0.1]
+2024-07-12 15:45:14,943 p=7112 u=alev n=ansible | TASK [2PRecuperatorio : Crear archivo datos.txt en /tmp/alumno/] ********************************************************
+2024-07-12 15:45:15,570 p=7112 u=alev n=ansible | changed: [127.0.0.1]
+2024-07-12 15:45:15,587 p=7112 u=alev n=ansible | TASK [instala_tools_voutsina : install htop] ****************************************************************************
+2024-07-12 15:45:16,597 p=7112 u=alev n=ansible | ok: [127.0.0.1]
+2024-07-12 15:45:16,606 p=7112 u=alev n=ansible | TASK [instala_tools_voutsina : install net-tools] ***********************************************************************
+2024-07-12 15:45:22,786 p=7112 u=alev n=ansible | changed: [127.0.0.1]
+2024-07-12 15:45:22,799 p=7112 u=alev n=ansible | TASK [instala_tools_voutsina : install tmux] ****************************************************************************
+2024-07-12 15:45:23,831 p=7112 u=alev n=ansible | ok: [127.0.0.1]
+2024-07-12 15:45:23,840 p=7112 u=alev n=ansible | TASK [instala_tools_voutsina : isntall tree] ****************************************************************************
+2024-07-12 15:45:29,148 p=7112 u=alev n=ansible | changed: [127.0.0.1]
+2024-07-12 15:45:29,158 p=7112 u=alev n=ansible | TASK [instala_tools_voutsina : install speedtest-cli] *******************************************************************
+2024-07-12 15:45:33,773 p=7112 u=alev n=ansible | changed: [127.0.0.1]
+2024-07-12 15:45:33,812 p=7112 u=alev n=ansible | PLAY RECAP **************************************************************************************************************
+2024-07-12 15:45:33,812 p=7112 u=alev n=ansible | 127.0.0.1                  : ok=8    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

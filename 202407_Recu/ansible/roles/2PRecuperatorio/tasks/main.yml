@@ -1,0 +1,11 @@
+---
+- name: Crear el directorio /tmp/alumno
+  file:
+    path: /tmp/alumno
+    state: directory
+    mode: '0755'
+
+- name: Crear archivo datos.txt en /tmp/alumno/
+  template:
+    src: datos_alumno.j2
+    dest: /tmp/alumno/datos.txt

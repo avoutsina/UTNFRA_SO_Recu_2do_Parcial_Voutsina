@@ -1,0 +1,2 @@
+CPU Modelo: AMD Ryzen 5 5600G with Radeon Graphics
+Frecuencia: 3892.684
